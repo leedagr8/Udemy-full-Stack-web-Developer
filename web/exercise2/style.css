@@ -1,0 +1,32 @@
+body{
+    margin: 0px; /*Removes space from page. by default browser
+                   Typically have their own set margin*/
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;/* All properties should transition in 1 second  */
+}
+
+img:hover{
+    transform: scale(1.1); /*I want the image to grow by 1.1 in 1 second*/
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid green;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid green;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px; 
+}
+

@@ -1,0 +1,18 @@
+h1{
+    color: pink;
+}
+
+form{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+.boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    margin: 0px 20px 0px 20px;
+}

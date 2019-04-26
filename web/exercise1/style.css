@@ -1,0 +1,66 @@
+body {
+ /*   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/20/14/c0/dinner-in-room-at-night.jpg");
+  */  background-size: cover;
+      background-image: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252__340.jpg");
+}
+h2{
+    color:white;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px #aaa;
+
+}
+p{
+    color: black;
+    text-align: center;
+    border: 5px solid rgba(0,255,0,.5);
+    line-height: 45px;
+    font-size: 125%;
+    font-family: "Times New Roman", Georgia;
+
+}
+li{
+    list-style: none;
+    color: #AA4139;
+    /*cursor: pointer; */
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+}
+
+.webtext:hover {
+    border: 5px dashed green;
+}
+
+.yup{
+    color : blue;
+}
+
+nav{
+    text-align: right;
+}
+
+nav ul{
+    /* display: inline-block; */
+    text-align: right;
+}
+
+img {
+    float: right;
+}
+
+li ul {
+    text-align: left;
+    font-size: 100%;
+}
+
+   span{
+    text-align: left;
+    font-size: 130%;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+body{
+    background-image: url("97c1068bc62a.jpeg");
+    background-size:cover;
+    background-repeat: repeat-x;
+    background-color: black;
+}
+
+.btn-success{
+    
+}
+
+.navbar-light  .navbar-brand{
+    color:white;
+}
+
+.navbar-light .navbar-brand:hover{
+    color:green;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:green;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link.active :hover{
+    color:green;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+}
+
+.container{
+    justify-content: center;
+    flex-wrap:flex;
+    align-items: center;
+}
+
+.para{
+    color: white;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+}

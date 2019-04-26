@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 1fr 4fr 8fr 1fr;
+}
+
+.Header{
+    border: 2px dotted red;
+    background-color: yellow;
+}
+
+.cover{
+    border: 2px solid green;
+    background-color: pink;
+    color: blue;
+}
+
+ul{
+    display: inline-block
+}
+
+.reg{
+    margin-left: auto;
+}
+.content{
+    border:3px solid red;
+}
+
+.footer{
+    border: 1px solid orange;
+}
