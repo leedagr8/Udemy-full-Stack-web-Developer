@@ -1,0 +1,22 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "This project will hold the code I wrote during my Full-stack web developer course on udemy.",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedagr8/Udemy-full-Stack-web-Developer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leedagr8/Udemy-full-Stack-web-Developer/issues"
+  },
+  "homepage": "https://github.com/leedagr8/Udemy-full-Stack-web-Developer#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
